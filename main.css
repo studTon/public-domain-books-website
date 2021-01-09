@@ -11,16 +11,55 @@ li{
 }
 
 .light-theme{
-    color: brown;
-    background-color: lightsalmon;
+    color: black;
+    background-color: cyan;
 }
 
 .dark-theme{
-    color: black;
-    background-color: darkred;
+    color: cyan;
+    background-color: black;
 }
 
 :root{
     --black: #000000;
-    --darkred: #8B0000;
+    --cyan: #00FFFF;
+    --white: #FFFFFF;
+}
+
+body{
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus{ outline-style: none;}
+
+.light-theme{
+    --bg: var(--cyan);
+    --fontColor:var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--cyan);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+*{
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
 }
