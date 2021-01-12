@@ -7,10 +7,10 @@ switcher.addEventListener('click', function(){
 
     var className = document.body.className;
     if(className == 'light-theme') {
-        this.textContent = 'Dark';
+        this.textContent = 'Switch';
     }
     else {
-        this.textContent = 'Light';
+        this.textContent = 'Switch';
     }
 });
 
