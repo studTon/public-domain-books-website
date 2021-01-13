@@ -1,84 +1,42 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
 }
 
 header{
     position: relative;
-    text-align: center;
     background-color: snow;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     border-radius: 5px 15px;
     box-shadow: 3px 3px orange;
 }
 
-main{
-    text-align: justify;
-    margin: auto;
-}
 
 .text-content{
     margin: auto;
-    text-align: justify;
+    background-color: snow;
+    box-shadow: 3px 3px orange;
+    border-radius: 5px 15px;
+    width: 60%;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
 
 li{
-    list-style: circle;
+    list-style: square;
 }
 
-.light-theme{
-    color: black;
-    background-color: cyan;
-}
-
-.dark-theme{
-    color: cyan;
-    background-color: black;
-}
-
-:root{
-    --black: #000000;
-    --cyan: #00FFFF;
-    --white: #FFFFFF;
-}
 
 body{
     background-image: url(images/bookshelfs.jpg);
     background-position: top;
     background-size: auto;
     color: var(--fontColor);
-}
-
-.btn{
-    position: relative;
-    align-content: center;
-    margin: auto;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-}
-
-.btn:focus{ outline-style: none;}
-
-.light-theme{
-    --bg: var(--cyan);
-    --fontColor:var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-}
-
-.dark-theme{
-    --bg: var(--black);
-    --fontColor: var(--cyan);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
-}
-
-*{
-    color: var(--fontColor);
-    font-family: Arial, Helvetica, sans-serif;
 }
