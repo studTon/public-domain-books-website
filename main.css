@@ -16,11 +16,9 @@ main{
     margin: auto;
 }
 
-section{
-    text-align: center;
-    align-self: center;
-    vertical-align: middle;
+.text-content{
     margin: auto;
+    text-align: justify;
 }
 
 li{
