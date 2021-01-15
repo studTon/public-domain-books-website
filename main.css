@@ -1,11 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 95%;
+    background-image: url(images/bookshelfs.jpg);
+    background-position: top;
+    background-size: auto;
 }
 
 header{
     position: relative;
-    background-color: snow;
+    background-color: rgba(255, 250, 250);
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -13,30 +16,86 @@ header{
     box-shadow: 3px 3px orange;
 }
 
+nav{
+    margin:auto;
+    height: 90%;
+    width: 50%;
+}
 
-.text-content{
+.navbar{
     margin: auto;
-    background-color: snow;
+    width: 80%;
+    float: none;
+}
+
+.navbar li{
+    margin-left: 7%;
+    margin-right: auto;
+    list-style: none;
+    display: inline-flex;
+    background-color: orange;
+    box-shadow: 3px 3px white;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 25%;
+}
+
+.content{
+    margin: auto;
+    background-image: url(images/book-isolated-1.jpg);
+    background-position: center;
+    background-size: cover;
     box-shadow: 3px 3px orange;
     border-radius: 5px 15px;
     width: 60%;
+    padding-bottom: 10%;
 }
+
+.about{
+    text-justify: newspaper;
+    text-align: justify;
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    border-radius: 4%;
+    border-style: solid;
+    border-color: orange;
+    border-width: 30px;
+}
+
 h1{
     text-align: center;
+    text-shadow: 1px 1px grey;
 }
 
 h2{
     text-align: center;
+    text-shadow: 1px 1px grey;
 }
 
-li{
+.booklist{
     list-style: square;
+    padding-top: 2%;
 }
 
+.booklist li:hover {
+    text-shadow: 2px 2px darkorange;
+    transition: 1.2s;
+}
 
-body{
-    background-image: url(images/bookshelfs.jpg);
-    background-position: top;
-    background-size: auto;
-    color: var(--fontColor);
+.navbar li:hover {
+    box-shadow: 2px 2px black;
+    width: 20%;
+    transition: 1.2s;
+    background-color: rgb(216, 119, 0);
+}
+
+.navbar li a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:visited{
+    color: black;
 }
