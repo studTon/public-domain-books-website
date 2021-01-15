@@ -61,17 +61,21 @@ nav{
     border-radius: 4%;
     border-style: solid;
     border-color: orange;
-    border-width: 30px;
+    border-width: 7px;
+    line-height: 18px;
+    padding: 9px;
 }
 
 h1{
     text-align: center;
     text-shadow: 1px 1px grey;
+    padding: 9px;
 }
 
 h2{
     text-align: center;
     text-shadow: 1px 1px grey;
+    padding: 9px;
 }
 
 .booklist{
