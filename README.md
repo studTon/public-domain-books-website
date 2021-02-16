@@ -1,4 +1,4 @@
-# website-project
+# Public domain books website
 It's a simple website to learn basics of HTML and CSS using various sources of information.
 The goal is to create a webpage to show public domain books.
 
